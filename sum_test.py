@@ -10,6 +10,9 @@ def test_sum_nothing():
 def test_type_sum_integers():
     assert type(mysum([0, 1, 2, 3, 4])) == int
 
+def test_type_sum():
+    assert mysum([0, 1, 2, 3, 4]) > 0
+
 
 import pytest
 
